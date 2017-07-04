@@ -6,4 +6,10 @@ class ResumesController < ApplicationController
   def show
     @resume
   end
+
+  def api_resumes
+    render "resumes.json.jbuilder"
+  end
+
+
 end
