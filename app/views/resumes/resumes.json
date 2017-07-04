@@ -1,0 +1,49 @@
+{
+  "id": 1,
+  "first_name": "Bob",
+  "last_name": "Bobiok",
+  "email": "bob@gmail.com",
+  "phone_number": "9176803664",
+  "short_bio": "I am so cool!",
+  "linkedin_url": "https://www.linkedin.com/in/bob-bobik-272b59136/",
+  "twitter_handle": "@bob",
+  "website_url": "bob.com",
+  "resume_url": "https://www.linkedin.com/in/bob-bobik-272b59136/",
+  "github_url": "github.com/bob",
+  "photo_url": "http://www.halsteaddiving.com/wordpress/wp-content/uploads/2011/04/Bob.jpg",
+  "experience": [{
+    "start_date": "1999-01-01 20:00:00",
+    "end_date": "1999-02-01 20:00:00",
+    "title": "ingineer",
+    "company": "Logitech",
+    "details": "no det"
+  },{
+    "start_date": "1999-01-01 20:00:00",
+    "end_date": "1999-01-01 20:00:00",
+    "title": "engineer",
+    "company": "Bob Corp",
+    "details": "no det"
+  }],
+  "education": [{
+    "start_date": "1999-01-01 20:00:00",
+    "end_date": "1999-01-01 20:00:00",
+    "degree": "great",
+    "university_name": "Bob Univ",
+    "details": "no det"
+  }],
+  "skills": [{
+    "skill_name": "being weird"
+  },{
+    "skill_name": "being normal"
+  },{
+    "skill_name": "being annoying"
+  },{
+    "skill_name": "being me"
+  }],
+  "capstone": [{
+    "name": "My great project",
+    "description": "no desc",
+    "url": "url-my-project.com",
+    "screenshot": "https://cdn.evbuc.com/eventlogos/7528271/web.jpg"
+  }]
+}
