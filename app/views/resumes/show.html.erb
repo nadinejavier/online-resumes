@@ -12,5 +12,30 @@ Github URL
 Photo
  -->
 
+<div> 
+  <img src=<%= @resume['photo_url']%>> 
+  <h1> <%= @resume['first_name'] %> <%= @resume['last_name'] %> </h1> 
+  <p><h4> email: <%= @resume['email'] %> </h4> </p>
+  <p><h4> Phone Number: <%= @resume['phone_number'] %> </h4> </p>
+  <p><h4> Bio:: <%= @resume['short_bio'] %> </h4> </p>
+  <p><h4> LinkedIn: <%= @resume['linkedin_url'] %> </h4> </p>
+  <p><h4> Twitter: <%= @resume['twitter_handle'] %> </h4> </p> 
+  <p><h4> Website: <%= @resume['website_url'] %> </h4> </p>
+  <p><h4> Resume: <%= @resume['resume_url'] %> </h4> </p>
+  <p><h4> Github: <%= @resume['github_url'] %> </h4> </p>
+  <div>
+    <p><h4> Experience: 
+    <% @resume['experience'].each do |exp| %>
+      <p><%= exp['start_date'] %> > <%= exp['end_date'] %> <%= exp['title'] %></p>
+      <p> Company name: <%= exp['company'] %> </p>
+      <p> Details: <%= exp['details'] %></p>
+    <% end %> 
+    </h4> </p> 
+  </div>
+  <div>
+    
+    
+  </div>
 
-<%= @resume['first_name'] %>
+
+</div>
