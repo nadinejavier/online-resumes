@@ -4,7 +4,14 @@ class ResumesController < ApplicationController
   end
 
   def show
-    @resume = Unirest.get("http://localhost:3000/apiresumes.json").body
+    id = params[:id]
+    @resumes = Unirest.get("http://localhost:3000/apiresumes/#{id}.json").body
+    p @resume
+  end
+
+  def showplain
+    @resumes = Unirest.get("http://localhost:3000/apiresumes.json").body
+    @resume = @resumes.select {|resume| resume["id"] = params[:id]}
     p @resume
   end
 
